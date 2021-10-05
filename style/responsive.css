@@ -18,19 +18,25 @@ ul, ol {
 
 @media (min-width: 320px) and (max-width: 480px) {
   #mainNavbar {
-    height: 40px;
+    height: 60px;
     width: 100vw;
   }
   #mainNavbar:before {
-    height: 40px;
+    height: 60px;
     width: 100vw;
   }
   #mainNavbar #navbar {
     width: 100vw;
-    height: 40px;
+    height: 60px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   #mainNavbar #navbar #img {
     background-image: url("../images/logo/small logo.svg");
@@ -41,7 +47,7 @@ ul, ol {
     height: 30px;
   }
   #mainNavbar #navbar button {
-    margin: 0 70px 0 70px;
+    margin: 0 60px 0 60px;
     padding: 0;
     width: 120px;
     font-size: 10px;
@@ -66,34 +72,34 @@ ul, ol {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    height: 200px;
+    height: 300px;
     width: 100vw;
   }
   #bannerSection #bannerContainer {
-    height: 200px;
+    height: 300px;
     width: 100vw;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    display: block;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    padding: 2rem 10rem 2rem 0em;
+    padding: 5rem 9rem 5rem 1em;
+    float: left;
   }
   #bannerSection #bannerContainer:before {
-    height: 200px;
+    height: 300px;
     width: 100vw;
     background: url("../images/small avatar.svg") no-repeat center center;
     background-size: 200px;
   }
   #bannerSection h1 {
-    font-size: 1em;
+    font-size: 2em;
     margin: 0 0 10px 0;
   }
   #bannerSection h3 {
-    font-size: 0.5em;
+    font-size: 0.9em;
     margin: 0 0 10px 0;
     text-decoration: none;
+    width: 180px;
   }
   #bannerSection p {
     font-size: 0.3em;
@@ -101,8 +107,8 @@ ul, ol {
     width: 100px;
   }
   #bannerSection button {
-    padding: 1px 3px;
-    margin-top: 10px;
+    padding: 4px 8px;
+    margin: 10px 0 0 30px;
     font-size: 0.5em;
   }
   #formSection {
