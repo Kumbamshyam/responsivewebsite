@@ -38,14 +38,14 @@ ul,ol{
     
     #mainNavbar {
         height: 10vh;
-        width: 332px;
+        width: 100vw;
         &:before{
             height: 10vh;
-            width: 332px;
+            width: 100vw;
         }
         
         #navbar{
-            width: 332px;
+            width: 100vw;
             height: 10vh;
             display: flex;
             
@@ -88,13 +88,13 @@ ul,ol{
         #bannerSection{
             @include flexcenter;
             height: 100px;
-                width: 332px;
+                width: 100vw;
 
             #bannerContainer{
                 height: 100px;
-                width: 332px;
+                width: 100vw;
                 &:before{
-                    width: 332px;
+                    width: 100vw;
                     height: 100px;
                     background: url("../images/small\ avatar.svg") no-repeat center center;
                 }
