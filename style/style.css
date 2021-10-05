@@ -52,9 +52,6 @@ ul, ol {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   height: 20px;
 }
 
@@ -67,10 +64,11 @@ ul, ol {
 }
 
 #mainNavbar #navbar #img {
-  background: rgba(78, 165, 165, 0.404);
+  background-image: url("../images/logo/logo.svg");
   border-radius: 100%;
+  height: 40px;
+  width: 40px;
   padding: 5px;
-  opacity: 1;
   border: 0.5px solid black;
 }
 
@@ -125,6 +123,10 @@ ul, ol {
   background: #e4e412;
 }
 
+#mainNavbar #navbar span {
+  display: none;
+}
+
 #bannerSection {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -160,7 +162,6 @@ ul, ol {
 #bannerContainer:before {
   content: "";
   position: absolute;
-  float: left;
   inset: 0 0 0 0;
   height: 400px;
   width: 1147px;

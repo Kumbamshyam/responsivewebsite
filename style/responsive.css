@@ -18,15 +18,43 @@ ul, ol {
 
 @media (min-width: 320px) and (max-width: 480px) {
   #mainNavbar {
-    height: 80px;
-    width: 1180px;
+    height: 10vh;
+    width: 332px;
   }
   #mainNavbar:before {
-    height: 80px;
-    width: auto;
+    height: 10vh;
+    width: 332px;
+  }
+  #mainNavbar #navbar {
+    width: 332px;
+    height: 10vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  #mainNavbar #navbar #img {
+    background-image: url("../images/logo/small logo.svg");
+    border-radius: none;
+    padding: 0;
+    border: none;
+    width: 30px;
+    height: 30px;
+  }
+  #mainNavbar #navbar button {
+    margin: 0 70px 0 70px;
+    padding: 0;
+    width: 120px;
+    font-size: 10px;
+    height: 20px;
+  }
+  #mainNavbar #navbar button:hover {
+    background: #e4e412;
+  }
+  #mainNavbar #navbar span {
+    display: block;
   }
   #mainNavbar #ullist {
-    visibility: hidden;
+    display: none;
   }
   #bannerSection {
     display: -webkit-box;
@@ -38,67 +66,36 @@ ul, ol {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    width: 1150px;
+    height: 100px;
+    width: 332px;
   }
   #bannerSection #bannerContainer {
-    width: 1150px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    height: 100px;
+    width: 332px;
   }
   #bannerSection #bannerContainer:before {
-    width: 1150px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    width: 332px;
+    height: 100px;
+    background: url("../images/small avatar.svg") no-repeat center center;
+  }
+  #bannerSection h1 {
+    font-size: 1em;
+  }
+  #bannerSection h3 {
+    font-size: 0.5em;
+  }
+  #bannerSection p {
+    font-size: 0.3em;
+    margin: 0;
+    width: 100px;
+  }
+  #bannerSection button {
+    padding: 1px 3px;
+    margin-top: 10px;
+    font-size: 0.5em;
   }
   #formSection {
-    width: 1150px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  #formSection #formContainer {
-    width: 1150px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  #formSection #formContainer:before {
-    width: 1150px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    display: none;
   }
 }
 /*# sourceMappingURL=responsive.css.map */

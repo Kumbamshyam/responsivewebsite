@@ -33,51 +33,98 @@ ul,ol{
 
 // ------------------->   mobile phone  <-------------------
 
-@media (min-width: 320px) and ( max-width: 480px){
-    #mainNavbar{
-        height: 80px;
-        width: 1180px;
+@media (min-width: 320px) and (max-width: 480px){
+
+    
+    #mainNavbar {
+        height: 10vh;
+        width: 332px;
         &:before{
-            height: 80px;
-            width: auto;
+            height: 10vh;
+            width: 332px;
         }
-
-        #ullist{
-            visibility: hidden;
-
-        }
-    }
-
-    #bannerSection{
-        @include flexcenter;
-        width: 1150px;
         
-        #bannerContainer{
-            width: 1150px;
-            @include flexcenter;
+        #navbar{
+            width: 332px;
+            height: 10vh;
+            display: flex;
+            
 
-            &:before{
-            width: 1150px;
-            @include flexcenter;
+            #img{
+                background-image: url("../images/logo/small\ logo.svg");
+                border-radius: none;
+                padding: 0;
+                border: none;
+                width: 30px;
+                height: 30px;
+            }
+            
+            button{
+                margin: 0 70px 0 70px;
+                padding: 0;
+                width: 120px;
+                font-size: 10px;
+                height: 20px;
+                
+                &:hover{
+                    background: rgb(228, 228, 18);
+                }
             }
 
+            span{
+                display: block;
+            }
+            
             
         }
+        
+        
+        #ullist{
+            display: none;
+        }
+        
     }
+
+        #bannerSection{
+            @include flexcenter;
+            height: 100px;
+                width: 332px;
+
+            #bannerContainer{
+                height: 100px;
+                width: 332px;
+                &:before{
+                    width: 332px;
+                    height: 100px;
+                    background: url("../images/small\ avatar.svg") no-repeat center center;
+                }
+            }
+
+            h1{
+                font-size: 1em;
+            }
+
+            h3{
+                font-size: 0.5em;
+            }
+
+            p{
+                font-size: 0.3em;
+                margin: 0;
+                width: 100px;
+            }
+
+            button{
+                padding: 1px 3px;
+                margin-top: 10px;
+                font-size: 0.5em;
+                
+            }
+
+        }
 
 
     #formSection{
-            width: 1150px;
-            @include flexcenter;
-
-        #formContainer{
-            width: 1150px;
-            @include flexcenter;
-
-            &:before{
-            width: 1150px;
-            @include flexcenter;
-            }
-        }
+            display: none;
     }
 }
