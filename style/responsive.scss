@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+
+
+*,*::before,*::after{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a,a:hover{
+    text-decoration: none;
+}
+
+
+
+ul,ol{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+@mixin flexcenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin gridcenter{
+    display: grid;
+    place-items: center;
+}
+
+// ------------------->   mobile phone  <-------------------
+
+@media (min-width: 320px) and ( max-width: 480px){
+    #mainNavbar{
+        height: 80px;
+        width: 1180px;
+        &:before{
+            height: 80px;
+            width: auto;
+        }
+
+        #ullist{
+            visibility: hidden;
+
+        }
+    }
+
+    #bannerSection{
+        @include flexcenter;
+        width: 1150px;
+        
+        #bannerContainer{
+            width: 1150px;
+            @include flexcenter;
+
+            &:before{
+            width: 1150px;
+            @include flexcenter;
+            }
+
+            
+        }
+    }
+
+
+    #formSection{
+            width: 1150px;
+            @include flexcenter;
+
+        #formContainer{
+            width: 1150px;
+            @include flexcenter;
+
+            &:before{
+            width: 1150px;
+            @include flexcenter;
+            }
+        }
+    }
+}
