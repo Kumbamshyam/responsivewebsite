@@ -223,7 +223,6 @@ ul, ol {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  position: relative;
   height: 600px;
   width: 1147px;
   -webkit-box-orient: vertical;
@@ -232,7 +231,6 @@ ul, ol {
           flex-direction: column;
   position: relative;
   inset: 0 0 0 0;
-  padding: 0 0 80px 0;
   background: rgba(218, 214, 214, 0.514);
 }
 

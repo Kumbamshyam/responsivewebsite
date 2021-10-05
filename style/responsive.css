@@ -113,7 +113,61 @@ ul, ol {
     font-size: 0.5em;
   }
   #formSection {
-    display: none;
+    height: 600px;
+    width: 100vw;
+  }
+  #formSection #formContainer {
+    height: 600px;
+    width: 100vw;
+  }
+  #formSection #formContainer:before {
+    height: 600px;
+    width: 100vw;
+  }
+  #formSection #formContainer h1 {
+    height: 20px;
+    font-size: 1em;
+    margin: 20px 0 20px 0;
+  }
+  #formSection #formContainer div:nth-child(2) {
+    height: 350px;
+    width: 500px;
+  }
+  #formSection #formContainer #form {
+    padding: 20px 0 0 30px;
+    height: 350px;
+  }
+  #formSection #formContainer #form #radiobtn {
+    height: 20px;
+    width: 150px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #formSection #formContainer #form #radiobtn input {
+    margin: 5px 10px 0 0;
+    width: 10px;
+  }
+  #formSection #formContainer #form #radiobtn label {
+    margin: 0 57px 0 0;
+  }
+  #formSection #formContainer #form label {
+    font-size: 0.5em;
+  }
+  #formSection #formContainer #form input {
+    margin: 0 0 10px 0;
+    width: 150px;
+    height: 22px;
+    font-size: 0.7em;
+  }
+  #formSection #formContainer #form button {
+    margin: 10px 20px 0 30px;
   }
 }
 /*# sourceMappingURL=responsive.css.map */
