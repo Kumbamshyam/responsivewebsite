@@ -18,16 +18,16 @@ ul, ol {
 
 @media (min-width: 320px) and (max-width: 480px) {
   #mainNavbar {
-    height: 10vh;
+    height: 40px;
     width: 100vw;
   }
   #mainNavbar:before {
-    height: 10vh;
+    height: 40px;
     width: 100vw;
   }
   #mainNavbar #navbar {
     width: 100vw;
-    height: 10vh;
+    height: 40px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
