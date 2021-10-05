@@ -177,6 +177,11 @@ ul, ol {
   font-family: Chromate;
 }
 
+#bannerContainer h3 {
+  -webkit-text-decoration: underline 2px;
+          text-decoration: underline 2px;
+}
+
 #bannerContainer P {
   font-size: 0.9em;
   width: 400px;

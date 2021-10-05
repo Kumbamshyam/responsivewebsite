@@ -93,6 +93,7 @@ ul, ol {
   #bannerSection h3 {
     font-size: 0.5em;
     margin: 0 0 10px 0;
+    text-decoration: none;
   }
   #bannerSection p {
     font-size: 0.3em;
