@@ -94,6 +94,7 @@ ul, ol {
   #bannerSection h1 {
     font-size: 2em;
     margin: 0 0 10px 0;
+    text-shadow: none;
   }
   #bannerSection h3 {
     font-size: 0.9em;
