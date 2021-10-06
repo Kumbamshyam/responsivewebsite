@@ -28,15 +28,9 @@ ul, ol {
   #mainNavbar #navbar {
     width: 100vw;
     height: 60px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+  }
+  #mainNavbar #navbar #ullist {
+    display: none;
   }
   #mainNavbar #navbar #img {
     background-image: url("../images/logo/small logo.svg");
@@ -59,19 +53,7 @@ ul, ol {
   #mainNavbar #navbar span {
     display: block;
   }
-  #mainNavbar #ullist {
-    display: none;
-  }
   #bannerSection {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
     height: 300px;
     width: 100vw;
   }
@@ -79,11 +61,7 @@ ul, ol {
     height: 300px;
     width: 100vw;
     display: block;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
     padding: 5rem 9rem 5rem 1em;
-    float: left;
   }
   #bannerSection #bannerContainer:before {
     height: 300px;

@@ -47,8 +47,10 @@ ul,ol{
         #navbar{
             width: 100vw;
             height: 60px;
-            @include flexcenter;
             
+            #ullist{
+                display: none;
+            }
 
             #img{
                 background-image: url("../images/logo/small\ logo.svg");
@@ -79,25 +81,20 @@ ul,ol{
         }
         
         
-        #ullist{
-            display: none;
-        }
+        
         
     }
 
         #bannerSection{
-            @include flexcenter;
             height: 300px;
-                width: 100vw;
+            width: 100vw;
 
             #bannerContainer{
                 height: 300px;
                 width: 100vw;
                 display: block;
                 // display: flex;
-                align-items: center;
                 padding: 5rem 9rem 5rem 1em;
-                float: left;
 
                 &:before{
                     height: 300px;
