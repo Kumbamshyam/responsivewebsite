@@ -53,6 +53,7 @@ ul, ol {
       -ms-flex-align: center;
           align-items: center;
   height: 20px;
+  width: 100vw;
 }
 
 #mainNavbar #navbar #ullist {
