@@ -18,18 +18,18 @@ ul, ol {
 
 @media screen and (min-width: 280px) and (max-width: 480px) {
   #html {
-    width: 478px;
+    width: 490px;
   }
   #mainNavbar {
     height: 60px;
-    width: 100%;
+    width: 490px;
   }
   #mainNavbar:before {
     height: 60px;
-    width: 151%;
+    width: 490px;
   }
   #mainNavbar #navbar {
-    width: 161%;
+    width: 400px;
     height: 60px;
   }
   #mainNavbar #navbar #ullist {
@@ -58,16 +58,18 @@ ul, ol {
   }
   #bannerSection {
     height: 300px;
-    width: 30em;
+    width: 490px;
+    margin: 0;
+    padding: 0;
   }
   #bannerSection #bannerContainer {
     height: 300px;
-    width: 30em;
+    width: 490px;
     padding: 5rem 13rem 5rem 1em;
   }
   #bannerSection #bannerContainer:before {
     height: 300px;
-    width: 30em;
+    width: 490px;
     background: url("../images/small avatar.svg") no-repeat center center;
     background-size: 200px;
   }
@@ -94,15 +96,15 @@ ul, ol {
   }
   #formSection {
     height: 600px;
-    width: 30em;
+    width: 490px;
   }
   #formSection #formContainer {
     height: 600px;
-    width: 30em;
+    width: 490px;
   }
   #formSection #formContainer:before {
     height: 600px;
-    width: 30em;
+    width: 490px;
   }
   #formSection #formContainer h1 {
     height: 20px;
@@ -150,7 +152,7 @@ ul, ol {
     margin: 10px 20px 0 30px;
   }
   footer {
-    width: 30rem;
+    width: 490px;
   }
 }
 /*# sourceMappingURL=responsive.css.map */
