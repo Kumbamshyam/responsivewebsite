@@ -109,7 +109,7 @@ ul, ol {
   border: none;
   border-radius: 10px;
   padding: 8px;
-  margin-left: 40px;
+  margin: 0 20px 0 40px;
   background: yellow;
   -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
           box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
@@ -312,5 +312,20 @@ ul, ol {
           box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   padding: 5px 5px 5px 5px;
   background: #14bdbd;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #969090;
+  color: #ddd8d8;
+  font-size: 0.8em;
 }
 /*# sourceMappingURL=style.css.map */
