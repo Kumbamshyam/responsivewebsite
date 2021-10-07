@@ -151,4 +151,28 @@ ul, ol {
     width: 100vw;
   }
 }
+
+@media (max-width: 666px) and (min-width: 481px) {
+  #navbar button {
+    display: none;
+  }
+}
+
+@media (max-width: 769px) and (min-width: 481px) {
+  #mainNavbar #navbar {
+    width: 90vw;
+  }
+  #mainNavbar #navbar #ullist {
+    margin-left: 10px;
+  }
+  #mainNavbar #navbar button {
+    margin: 0 0 0 10px;
+  }
+}
+
+@media (max-width: 998px) and (min-width: 769px) {
+  #mainNavbar #navbar #ullist {
+    margin-left: 10px;
+  }
+}
 /*# sourceMappingURL=responsive.css.map */

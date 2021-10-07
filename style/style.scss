@@ -32,7 +32,7 @@ ul,ol{
 #mainNavbar{
     @include flexcenter;
     height: 12vh;
-    width: 1000px;
+    width: 100vw;
     inset: 0 0 0 0;
     position: relative;
     &:before{
@@ -41,7 +41,7 @@ ul,ol{
         inset: 0 0 0 0;
         background: rgb(28, 146, 146);
         height: 12vh;
-        width: 1000px;
+        width: 100vw;
         z-index: -1;
 
     }
@@ -52,7 +52,7 @@ ul,ol{
         height: 20px;
         position: relative;
         inset: 0 0 0 0;
-        width: 900px;
+        width: 80vw;
 
         #ullist{
              background: rgba(11, 238, 238, 0.472);
@@ -122,7 +122,7 @@ ul,ol{
 
 // banner section
 #bannerSection{
-    // @include flexcenter;
+    @include flexcenter;
     // border-top: 1px solid rgb(122, 118, 118);
     // border-bottom: 1px solid rgb(122, 118, 118);
 
@@ -130,7 +130,7 @@ ul,ol{
 
 #bannerContainer{
     height: 400px;
-    width: 1000px;
+    width: 100vw;
     position: relative;
     inset: 0 0 0 0;
     display: flex;
@@ -142,7 +142,7 @@ ul,ol{
         position: absolute;
         inset: 0 0 0 0;
         height: 400px;
-        width: 1000px;
+        width: 100vw;
         background: url("../images/avatar\ png.png") no-repeat ;
         opacity: 0.7;
         z-index: -1;    
@@ -186,7 +186,7 @@ ul,ol{
         #formContainer{
             @include flexcenter;
             height: 600px;
-            width: 1000px;
+            width: 100vw;
             flex-direction: column;
             position: relative;
             inset: 0 0 0 0;
@@ -197,7 +197,7 @@ ul,ol{
                 position: absolute;
                 inset: 0 0 0 0;
                 height: 600px;
-                width: 1000px;
+                width: 100vw;
                 background: url("../images/meditation.png") no-repeat center center;
                 z-index: -1;
                 }
@@ -212,7 +212,7 @@ ul,ol{
         // background: rgba(233, 230, 230, 0.315);
         @include flexcenter;
         height: 400px;
-        width: 1000px;
+        width: 100vw;
         
     }
 

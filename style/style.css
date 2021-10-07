@@ -27,7 +27,7 @@ ul, ol {
       -ms-flex-align: center;
           align-items: center;
   height: 12vh;
-  width: 1000px;
+  width: 100vw;
   inset: 0 0 0 0;
   position: relative;
 }
@@ -38,7 +38,7 @@ ul, ol {
   inset: 0 0 0 0;
   background: #1c9292;
   height: 12vh;
-  width: 1000px;
+  width: 100vw;
   z-index: -1;
 }
 
@@ -55,7 +55,7 @@ ul, ol {
   height: 20px;
   position: relative;
   inset: 0 0 0 0;
-  width: 900px;
+  width: 80vw;
 }
 
 #mainNavbar #navbar #ullist {
@@ -130,9 +130,21 @@ ul, ol {
   display: none;
 }
 
+#bannerSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 #bannerContainer {
   height: 400px;
-  width: 1000px;
+  width: 100vw;
   position: relative;
   inset: 0 0 0 0;
   display: -webkit-box;
@@ -153,7 +165,7 @@ ul, ol {
   position: absolute;
   inset: 0 0 0 0;
   height: 400px;
-  width: 1000px;
+  width: 100vw;
   background: url("../images/avatar png.png") no-repeat;
   opacity: 0.7;
   z-index: -1;
@@ -201,7 +213,7 @@ ul, ol {
       -ms-flex-align: center;
           align-items: center;
   height: 600px;
-  width: 1000px;
+  width: 100vw;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -216,7 +228,7 @@ ul, ol {
   position: absolute;
   inset: 0 0 0 0;
   height: 600px;
-  width: 1000px;
+  width: 100vw;
   background: url("../images/meditation.png") no-repeat center center;
   z-index: -1;
 }
@@ -236,7 +248,7 @@ ul, ol {
       -ms-flex-align: center;
           align-items: center;
   height: 400px;
-  width: 1000px;
+  width: 100vw;
 }
 
 #formSection #form {
