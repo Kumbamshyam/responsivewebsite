@@ -27,7 +27,7 @@ ul, ol {
       -ms-flex-align: center;
           align-items: center;
   height: 12vh;
-  width: 100vw;
+  width: 1000px;
   inset: 0 0 0 0;
   position: relative;
 }
@@ -38,7 +38,7 @@ ul, ol {
   inset: 0 0 0 0;
   background: #1c9292;
   height: 12vh;
-  width: 100vw;
+  width: 1000px;
   z-index: -1;
 }
 
@@ -53,7 +53,9 @@ ul, ol {
       -ms-flex-align: center;
           align-items: center;
   height: 20px;
-  width: 100vw;
+  position: relative;
+  inset: 0 0 0 0;
+  width: 900px;
 }
 
 #mainNavbar #navbar #ullist {
@@ -61,7 +63,7 @@ ul, ol {
   -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
           box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   border-radius: 10px;
-  margin-left: 400px;
+  margin-left: 200px;
 }
 
 #mainNavbar #navbar #img {
@@ -128,23 +130,9 @@ ul, ol {
   display: none;
 }
 
-#bannerSection {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  border-top: 1px solid #7a7676;
-  border-bottom: 1px solid #7a7676;
-}
-
 #bannerContainer {
   height: 400px;
-  width: 1147px;
+  width: 1000px;
   position: relative;
   inset: 0 0 0 0;
   display: -webkit-box;
@@ -165,7 +153,7 @@ ul, ol {
   position: absolute;
   inset: 0 0 0 0;
   height: 400px;
-  width: 1147px;
+  width: 1000px;
   background: url("../images/avatar png.png") no-repeat;
   opacity: 0.7;
   z-index: -1;
@@ -202,18 +190,6 @@ ul, ol {
   background: #1c9292;
 }
 
-#formSection {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
 #formSection #formContainer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -225,7 +201,7 @@ ul, ol {
       -ms-flex-align: center;
           align-items: center;
   height: 600px;
-  width: 1147px;
+  width: 1000px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -240,7 +216,7 @@ ul, ol {
   position: absolute;
   inset: 0 0 0 0;
   height: 600px;
-  width: 1147px;
+  width: 1000px;
   background: url("../images/meditation.png") no-repeat center center;
   z-index: -1;
 }
@@ -260,7 +236,7 @@ ul, ol {
       -ms-flex-align: center;
           align-items: center;
   height: 400px;
-  width: 1147px;
+  width: 1000px;
 }
 
 #formSection #form {

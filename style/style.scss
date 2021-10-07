@@ -32,7 +32,7 @@ ul,ol{
 #mainNavbar{
     @include flexcenter;
     height: 12vh;
-    width: 100vw;
+    width: 1000px;
     inset: 0 0 0 0;
     position: relative;
     &:before{
@@ -41,7 +41,7 @@ ul,ol{
         inset: 0 0 0 0;
         background: rgb(28, 146, 146);
         height: 12vh;
-        width: 100vw;
+        width: 1000px;
         z-index: -1;
 
     }
@@ -50,14 +50,16 @@ ul,ol{
 #navbar{
         @include flexcenter;
         height: 20px;
-        width: 100vw;
+        position: relative;
+        inset: 0 0 0 0;
+        width: 900px;
 
         #ullist{
              background: rgba(11, 238, 238, 0.472);
             // border: 0.1px solid rgb(99, 96, 96);
             box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
             border-radius: 10px;
-            margin-left: 400px;
+            margin-left: 200px;
         }
         
         #img{
@@ -120,15 +122,15 @@ ul,ol{
 
 // banner section
 #bannerSection{
-    @include flexcenter;
-    border-top: 1px solid rgb(122, 118, 118);
-    border-bottom: 1px solid rgb(122, 118, 118);
+    // @include flexcenter;
+    // border-top: 1px solid rgb(122, 118, 118);
+    // border-bottom: 1px solid rgb(122, 118, 118);
 
 }   
 
 #bannerContainer{
     height: 400px;
-    width: 1147px;
+    width: 1000px;
     position: relative;
     inset: 0 0 0 0;
     display: flex;
@@ -140,7 +142,7 @@ ul,ol{
         position: absolute;
         inset: 0 0 0 0;
         height: 400px;
-        width: 1147px;
+        width: 1000px;
         background: url("../images/avatar\ png.png") no-repeat ;
         opacity: 0.7;
         z-index: -1;    
@@ -179,12 +181,12 @@ ul,ol{
 
 // form section
 #formSection{
-    @include flexcenter;
+    // @include flexcenter;
 
         #formContainer{
             @include flexcenter;
             height: 600px;
-            width: 1147px;
+            width: 1000px;
             flex-direction: column;
             position: relative;
             inset: 0 0 0 0;
@@ -195,7 +197,7 @@ ul,ol{
                 position: absolute;
                 inset: 0 0 0 0;
                 height: 600px;
-                width: 1147px;
+                width: 1000px;
                 background: url("../images/meditation.png") no-repeat center center;
                 z-index: -1;
                 }
@@ -210,7 +212,7 @@ ul,ol{
         // background: rgba(233, 230, 230, 0.315);
         @include flexcenter;
         height: 400px;
-        width: 1147px;
+        width: 1000px;
         
     }
 

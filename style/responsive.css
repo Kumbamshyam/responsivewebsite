@@ -16,65 +16,58 @@ ul, ol {
   list-style: none;
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
-  #html {
-    width: 490px;
-  }
+@media screen and (max-width: 480px) {
   #mainNavbar {
     height: 60px;
-    width: 490px;
+    width: 100vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   #mainNavbar:before {
     height: 60px;
-    width: 490px;
+    width: 100vw;
   }
   #mainNavbar #navbar {
-    width: 400px;
+    width: 100vw;
     height: 60px;
   }
   #mainNavbar #navbar #ullist {
     display: none;
   }
   #mainNavbar #navbar #img {
-    background-image: url("../images/logo/small logo.svg");
-    border-radius: none;
-    padding: 0;
-    border: none;
-    width: 30px;
-    height: 30px;
+    display: none;
   }
   #mainNavbar #navbar button {
-    margin: 0 100px 0 100px;
-    padding: 0;
-    width: 120px;
-    font-size: 10px;
-    height: 20px;
-  }
-  #mainNavbar #navbar button:hover {
-    background: #e4e412;
+    display: none;
   }
   #mainNavbar #navbar span {
     display: block;
   }
   #bannerSection {
     height: 300px;
-    width: 490px;
+    width: 100%;
     margin: 0;
     padding: 0;
   }
   #bannerSection #bannerContainer {
     height: 300px;
-    width: 490px;
-    padding: 5rem 13rem 5rem 1em;
+    width: 100%;
   }
   #bannerSection #bannerContainer:before {
     height: 300px;
-    width: 490px;
+    width: 100%;
     background: url("../images/small avatar.svg") no-repeat center center;
     background-size: 200px;
   }
   #bannerSection h1 {
-    font-size: 2em;
+    font-size: 30px;
     margin: 0 0 10px 0;
     text-shadow: none;
   }
@@ -82,7 +75,6 @@ ul, ol {
     font-size: 0.9em;
     margin: 0 0 10px 0;
     text-decoration: none;
-    width: 180px;
   }
   #bannerSection p {
     font-size: 0.3em;
@@ -96,32 +88,33 @@ ul, ol {
   }
   #formSection {
     height: 600px;
-    width: 490px;
+    width: 100%;
   }
   #formSection #formContainer {
     height: 600px;
-    width: 490px;
+    width: 100%;
   }
   #formSection #formContainer:before {
     height: 600px;
-    width: 490px;
+    width: 100%;
   }
   #formSection #formContainer h1 {
     height: 20px;
     font-size: 1em;
-    margin: 20px 0 20px 0;
+    margin: 10px 0 20px 0;
   }
   #formSection #formContainer div:nth-child(2) {
     height: 350px;
-    width: 500px;
+    width: 230px;
   }
   #formSection #formContainer #form {
-    padding: 20px 0 0 30px;
-    height: 350px;
+    height: 100%;
+    padding: 0;
+    width: 190px;
   }
   #formSection #formContainer #form #radiobtn {
     height: 20px;
-    width: 150px;
+    width: 100px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -133,26 +126,29 @@ ul, ol {
             align-items: center;
   }
   #formSection #formContainer #form #radiobtn input {
-    margin: 5px 10px 0 0;
-    width: 10px;
+    margin: 0;
+    width: 13px;
+    height: 14px;
   }
   #formSection #formContainer #form #radiobtn label {
-    margin: 0 57px 0 0;
+    margin: 0;
   }
   #formSection #formContainer #form label {
     font-size: 0.5em;
+    margin: 10px 0  0 5px;
   }
   #formSection #formContainer #form input {
-    margin: 0 0 10px 0;
+    margin: 0 0 10px 5px;
     width: 150px;
-    height: 22px;
+    height: 23px;
     font-size: 0.7em;
   }
   #formSection #formContainer #form button {
-    margin: 10px 20px 0 30px;
+    margin: 0;
+    width: 80px;
   }
   footer {
-    width: 490px;
+    width: 100vw;
   }
 }
 /*# sourceMappingURL=responsive.css.map */
