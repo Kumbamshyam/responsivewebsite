@@ -29,18 +29,18 @@
             <div id="img">
             </div>
             <div id="ullist">
-                <ul>
+                <ul id="ullist2">
                     <li><a href="#" target="_blank">Home</a></li>
                     <li><a href="#" target="_blank">Blog</a></li>
                     <li><a href="#" target="_blank">Service</a></li>
                     <li><a href="#" target="_blank">About us</a></li>
                 </ul>
             </div>
-            <button id="btn" onclick="buttons()">
+            <button id="btn">
                 +91-630-359-4156
             </button>
-            <span>
-                <img src="./images/logo/menu logo.svg   " alt="">
+            <span   >
+                <img id="menulogo"  src="./images/logo/menu logo.svg   " alt="">
             </span>
         </div>
     </nav>
@@ -109,7 +109,26 @@
     <!-- own js link -->
     <script src="./js/action.js"></script>
     <script>
-        
+        let navlist = document.getElementById("ullist");
+        let navlistin = document.getElementById("ullist2");
+        let menuicon = document.getElementById("menulogo")
+
+
+        menuicon.addEventListener("click", function() {
+            navlist.style.display = "block";
+
+        })
+
+       navlist.addEventListener("mouseout", function (){
+           if((navlist.style.height = "200px") === (navlist.style.height = "200px") ){
+               navlist.style.display = "block";
+           }
+           else{
+               navlist.style.display = "none";
+           }
+        })
+       
+
     </script>
 </body>
 

@@ -40,6 +40,38 @@ ul, ol {
   }
   #mainNavbar #navbar #ullist {
     display: none;
+    height: 200px;
+    position: absolute;
+    inset: 0 0 0 0;
+    width: 100vw;
+    margin: 0 0 0 0;
+    padding: 25% 25% 25% 25%;
+    z-index: 32;
+  }
+  #mainNavbar #navbar #ullist #ullist2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #mainNavbar #navbar #ullist li {
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 0 0 10px 0;
+  }
+  #mainNavbar #navbar #ullist a {
+    color: black;
+    font-size: 0.9em;
+    font-weight: bold;
   }
   #mainNavbar #navbar #img {
     display: none;
@@ -49,6 +81,7 @@ ul, ol {
   }
   #mainNavbar #navbar span {
     display: block;
+    cursor: pointer;
   }
   #bannerSection {
     height: 300px;

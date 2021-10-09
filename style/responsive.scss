@@ -51,6 +51,32 @@ ul,ol{
             
             #ullist{
                 display: none;
+                height: 200px;
+                position: absolute;
+                inset: 0 0 0 0;
+                width: 100vw;
+                margin: 0 0 0 0;
+                padding: 25% 25% 25% 25% ;
+                z-index: 32;
+                
+                #ullist2{
+                    @include flexcenter;
+                    flex-direction: column;
+                }
+
+                li{
+                    background-color: #fff;
+                    border-radius: 20px;
+                    margin: 0 0 10px 0;
+                }
+
+                a{
+                    color: black;
+                    font-size: 0.9em;
+                    font-weight: bold;
+
+                }
+
             }
 
             #img{
@@ -63,6 +89,7 @@ ul,ol{
 
             span{
                 display: block;
+                cursor: pointer;
             }
             
             
